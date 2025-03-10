@@ -64,7 +64,7 @@ $(function () {
     });
     function evaluateExpression(expression) {
         try {
-            return eval(expression);
+            return math.evaluate(expression);
         } catch (error) {
             return 'Ошибка';
         }
